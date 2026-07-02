@@ -1,68 +1,65 @@
-'use client';
+import Link from 'next/link';
+import Image from 'next/image';
+import { SITE, NAV_LINKS } from '@/data/site';
+import { YoutubeIcon, LinkedinIcon } from '@/components/icons';
 
 export default function Footer() {
-  const handleScroll = (e, id) => {
-    e.preventDefault();
-    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
-  };
-
   return (
-    <div className="footer-wrap">
-      <footer>
-        <div className="footer-grid">
+    <footer className="footer">
+      <div className="footer-main">
+        <div className="container footer-grid">
           <div>
-            <div className="footer-logo" style={{ fontFamily: 'var(--font-display)' }}>
-              OPTIO<span>N</span> EXCAVATING
+            <div className="footer-logo-tile">
+              <Image src={SITE.logoDark} alt="Option Excavating Inc." width={180} height={48} />
             </div>
-            <p className="footer-about">
-              Earthworks and underground utility construction serving Western Canada since 2012.
-              Locally owned and operated out of Spruce Grove, Alberta.
+            <p className="footer-about">{SITE.blurb}</p>
+            <div className="footer-social">
+              <a href={SITE.social.youtube} target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="footer-yt">
+                <YoutubeIcon />
+              </a>
+              <a href={SITE.social.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="footer-li">
+                <LinkedinIcon />
+              </a>
+            </div>
+          </div>
+
+          <div className="footer-col">
+            <h4>Quick Links</h4>
+            <ul className="footer-links">
+              {NAV_LINKS.map((l) => (
+                <li key={l.href}>
+                  <Link href={l.href}>{l.label}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="footer-col footer-contact">
+            <h4>Contact Info</h4>
+            <p className="fc-strong">{SITE.shortName}</p>
+            <p>{SITE.address.line1}</p>
+            <p>{SITE.address.city}, {SITE.address.region}</p>
+            <p>{SITE.address.postal}</p>
+            <p style={{ marginTop: 12 }}>
+              <span className="fc-strong">Tel: </span>
+              <a href={SITE.phoneHref}>{SITE.phone}</a>
+            </p>
+            <p>
+              <span className="fc-strong">Email: </span>
+              <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
             </p>
           </div>
-
-          <div>
-            <div className="footer-col-title" style={{ fontFamily: 'var(--font-ui)' }}>Services</div>
-            <ul className="footer-links">
-              <li><a href="#services" onClick={(e) => handleScroll(e, 'services')}>Water &amp; Sewer</a></li>
-              <li><a href="#services" onClick={(e) => handleScroll(e, 'services')}>Earthworks</a></li>
-              <li><a href="#services" onClick={(e) => handleScroll(e, 'services')}>HDPE Pipe Fusion</a></li>
-              <li><a href="#services" onClick={(e) => handleScroll(e, 'services')}>Oil &amp; Gas</a></li>
-              <li><a href="#services" onClick={(e) => handleScroll(e, 'services')}>Rehabilitation</a></li>
-              <li><a href="#services" onClick={(e) => handleScroll(e, 'services')}>First Nations</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <div className="footer-col-title" style={{ fontFamily: 'var(--font-ui)' }}>Company</div>
-            <ul className="footer-links">
-              <li><a href="#why-us" onClick={(e) => handleScroll(e, 'why-us')}>About Us</a></li>
-              <li><a href="#projects" onClick={(e) => handleScroll(e, 'projects')}>Projects</a></li>
-              <li><a href="#contact" onClick={(e) => handleScroll(e, 'contact')}>Contact</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <div className="footer-col-title" style={{ fontFamily: 'var(--font-ui)' }}>Contact</div>
-            <ul className="footer-links">
-              <li><a href="tel:7808091700">780-809-1700</a></li>
-              <li><a href="mailto:estimating@optionexcavating.com">Estimating@optionexcavating.com</a></li>
-              <li><a href="tel:18555143073">1-855-514-3073 (Toll-Free)</a></li>
-              <li>Spruce Grove, AB</li>
-            </ul>
-          </div>
         </div>
+      </div>
 
-        <div className="footer-bottom">
-          <div className="footer-copy">
-            © 2026 <span>Option Excavating Inc.</span> — Alberta Corp #2016646784
-          </div>
-          <div className="certifications" style={{ fontFamily: 'var(--font-ui)' }}>
-            <span className="cert-badge">AB Transportation</span>
-            <span className="cert-badge">AB Environment</span>
-            <span className="cert-badge">COR Certified</span>
-          </div>
+      <div className="footer-bar">
+        <div className="container footer-bar-inner">
+          <span>© {new Date().getFullYear()} Option Excavating Inc. All rights reserved.</span>
+          <span>
+            Site by <a href="https://aiprecisionmarketing.ca" target="_blank" rel="noopener noreferrer">AI Precision Marketing</a>
+          </span>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   );
 }

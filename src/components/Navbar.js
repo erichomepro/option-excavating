@@ -1,81 +1,88 @@
 'use client';
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+import { usePathname } from 'next/navigation';
+import { SITE, NAV_LINKS } from '@/data/site';
+import { PhoneIcon } from '@/components/icons';
 
 export default function Navbar() {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 20);
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    // Passive, rAF-throttled scroll read so we never thrash layout on scroll.
+    let ticking = false;
+    const update = () => {
+      setScrolled(window.scrollY > 80);
+      ticking = false;
+    };
+    const onScroll = () => {
+      if (!ticking) {
+        ticking = true;
+        requestAnimationFrame(update);
+      }
+    };
+    update();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
   useEffect(() => {
-    document.body.style.overflow = menuOpen ? 'hidden' : '';
+    document.body.style.overflow = open ? 'hidden' : '';
     return () => { document.body.style.overflow = ''; };
-  }, [menuOpen]);
+  }, [open]);
 
-  const handleNavClick = (e, id) => {
-    e.preventDefault();
-    setMenuOpen(false);
-    const el = document.getElementById(id);
-    if (el) el.scrollIntoView({ behavior: 'smooth' });
-  };
-
-  const links = [
-    { label: 'Services', id: 'services' },
-    { label: 'Projects', id: 'projects' },
-    { label: 'About', id: 'why-us' },
-    { label: 'Contact', id: 'contact' },
-  ];
+  const isActive = (href) => (href === '/' ? pathname === '/' : pathname.startsWith(href));
 
   return (
     <>
-      <nav style={{ borderBottomColor: scrolled ? 'var(--line)' : 'transparent' }}>
-        <div className="nav-logo" style={{ fontFamily: 'var(--font-display)' }}>
-          OPTIO<span>N</span> EXCAVATING
+      <nav className={`nav ${scrolled ? 'nav-solid nav-shrink' : 'nav-transparent'}`}>
+        <div className="nav-inner">
+          <Link href="/" className="nav-logo" aria-label="Option Excavating home">
+            <Image src={SITE.logo} alt="Option Excavating Inc." width={170} height={46} priority />
+          </Link>
+
+          <ul className="nav-links">
+            {NAV_LINKS.map((l) => (
+              <li key={l.href}>
+                <Link href={l.href} className={isActive(l.href) ? 'active' : ''}>
+                  {l.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+
+          <a href={SITE.phoneHref} className="nav-phone">
+            <PhoneIcon />
+            {SITE.phone}
+          </a>
+
+          <button
+            className={`hamburger ${open ? 'open' : ''}`}
+            onClick={() => setOpen((v) => !v)}
+            aria-label="Toggle navigation menu"
+            aria-expanded={open}
+          >
+            <span /><span /><span />
+          </button>
         </div>
-
-        <ul className="nav-links" style={{ fontFamily: 'var(--font-ui)' }}>
-          {links.map(link => (
-            <li key={link.id}>
-              <a href={`#${link.id}`} onClick={(e) => handleNavClick(e, link.id)}>
-                {link.label}
-              </a>
-            </li>
-          ))}
-        </ul>
-
-        <button
-          className="nav-cta"
-          style={{ fontFamily: 'var(--font-ui)' }}
-          onClick={(e) => handleNavClick(e, 'contact')}
-        >
-          Get an Estimate
-        </button>
-
-        <button
-          className={`hamburger ${menuOpen ? 'active' : ''}`}
-          onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Toggle menu"
-        >
-          <span /><span /><span />
-        </button>
       </nav>
 
-      <div className={`mobile-nav-overlay ${menuOpen ? 'open' : ''}`} style={{ fontFamily: 'var(--font-ui)' }}>
-        {links.map(link => (
-          <a key={link.id} href={`#${link.id}`} onClick={(e) => handleNavClick(e, link.id)}>
-            {link.label}
-          </a>
+      <div className={`mobile-menu ${open ? 'open' : ''}`}>
+        {NAV_LINKS.map((l) => (
+          <Link
+            key={l.href}
+            href={l.href}
+            className={isActive(l.href) ? 'active' : ''}
+            onClick={() => setOpen(false)}
+          >
+            {l.label}
+          </Link>
         ))}
-        <a
-          href="#contact"
-          onClick={(e) => handleNavClick(e, 'contact')}
-          style={{ color: 'var(--orange)' }}
-        >
-          Get an Estimate
+        <a href={SITE.phoneHref} className="active" onClick={() => setOpen(false)}>
+          {SITE.phone}
         </a>
       </div>
     </>

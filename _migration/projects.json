@@ -1,0 +1,874 @@
+[
+  {
+    "id": 92882,
+    "date": "2023-11-08T17:16:21",
+    "date_gmt": "2023-11-08T17:16:21",
+    "guid": {
+      "rendered": "https://themes.diviplus.io/minimal-portfolio/?post_type=project&#038;p=100380"
+    },
+    "modified": "2026-03-04T16:45:28",
+    "modified_gmt": "2026-03-04T21:45:28",
+    "slug": "project-08",
+    "status": "publish",
+    "type": "project",
+    "link": "https://www.optioninc.ca/project/project-08/",
+    "title": {
+      "rendered": "Project 08"
+    },
+    "content": {
+      "rendered": "<p>You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings. You can also style every aspect of this content in the module Design settings.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings. You can also style every aspect of this content in the module Design settings.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "template": "",
+    "meta": {
+      "_acf_changed": false,
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "footnotes": ""
+    },
+    "project_category": [],
+    "project_tag": [],
+    "class_list": [
+      "post-92882",
+      "project",
+      "type-project",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project/92882",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/types/project"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/users/1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project/92882/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 99595,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project/92882/revisions/99595"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/media?parent=92882"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "project_category",
+          "embeddable": true,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project_category?post=92882"
+        },
+        {
+          "taxonomy": "project_tag",
+          "embeddable": true,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project_tag?post=92882"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 92983,
+    "date": "2023-11-08T17:15:24",
+    "date_gmt": "2023-11-08T17:15:24",
+    "guid": {
+      "rendered": "https://themes.diviplus.io/minimal-portfolio/?post_type=project&#038;p=100377"
+    },
+    "modified": "2026-03-04T16:45:28",
+    "modified_gmt": "2026-03-04T21:45:28",
+    "slug": "project-06",
+    "status": "publish",
+    "type": "project",
+    "link": "https://www.optioninc.ca/project/project-06/",
+    "title": {
+      "rendered": "Project 06"
+    },
+    "content": {
+      "rendered": "<p>You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings. You can also style every aspect of this content in the module Design settings.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings. You can also style every aspect of this content in the module Design settings.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "template": "",
+    "meta": {
+      "_acf_changed": false,
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "footnotes": ""
+    },
+    "project_category": [],
+    "project_tag": [],
+    "class_list": [
+      "post-92983",
+      "project",
+      "type-project",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project/92983",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/types/project"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/users/1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project/92983/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 99596,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project/92983/revisions/99596"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/media?parent=92983"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "project_category",
+          "embeddable": true,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project_category?post=92983"
+        },
+        {
+          "taxonomy": "project_tag",
+          "embeddable": true,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project_tag?post=92983"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 90764,
+    "date": "2023-11-08T12:46:55",
+    "date_gmt": "2023-11-08T12:46:55",
+    "guid": {
+      "rendered": "https://themes.diviplus.io/portfolio/?post_type=project&#038;p=171"
+    },
+    "modified": "2026-03-04T16:45:28",
+    "modified_gmt": "2026-03-04T21:45:28",
+    "slug": "project-05",
+    "status": "publish",
+    "type": "project",
+    "link": "https://www.optioninc.ca/project/project-05/",
+    "title": {
+      "rendered": "Project 05"
+    },
+    "content": {
+      "rendered": "<p>You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings. You can also style every aspect of this content in the module Design settings.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings. You can also style every aspect of this content in the module Design settings.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "template": "",
+    "meta": {
+      "_acf_changed": false,
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "footnotes": ""
+    },
+    "project_category": [],
+    "project_tag": [],
+    "class_list": [
+      "post-90764",
+      "project",
+      "type-project",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project/90764",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/types/project"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/users/1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project/90764/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 99597,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project/90764/revisions/99597"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/media?parent=90764"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "project_category",
+          "embeddable": true,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project_category?post=90764"
+        },
+        {
+          "taxonomy": "project_tag",
+          "embeddable": true,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project_tag?post=90764"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 92729,
+    "date": "2023-11-08T12:46:48",
+    "date_gmt": "2023-11-08T12:46:48",
+    "guid": {
+      "rendered": "https://themes.diviplus.io/portfolio/?post_type=project&#038;p=170"
+    },
+    "modified": "2026-03-04T16:45:28",
+    "modified_gmt": "2026-03-04T21:45:28",
+    "slug": "project-07",
+    "status": "publish",
+    "type": "project",
+    "link": "https://www.optioninc.ca/project/project-07/",
+    "title": {
+      "rendered": "Project 07"
+    },
+    "content": {
+      "rendered": "<p>You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings. You can also style every aspect of this content in the module Design settings.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings. You can also style every aspect of this content in the module Design settings.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "template": "",
+    "meta": {
+      "_acf_changed": false,
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "footnotes": ""
+    },
+    "project_category": [],
+    "project_tag": [],
+    "class_list": [
+      "post-92729",
+      "project",
+      "type-project",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project/92729",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/types/project"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/users/1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project/92729/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 99598,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project/92729/revisions/99598"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/media?parent=92729"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "project_category",
+          "embeddable": true,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project_category?post=92729"
+        },
+        {
+          "taxonomy": "project_tag",
+          "embeddable": true,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project_tag?post=92729"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 97737,
+    "date": "2023-11-08T12:46:41",
+    "date_gmt": "2023-11-08T12:46:41",
+    "guid": {
+      "rendered": "https://themes.diviplus.io/portfolio/?post_type=project&#038;p=169"
+    },
+    "modified": "2026-03-04T16:45:28",
+    "modified_gmt": "2026-03-04T21:45:28",
+    "slug": "project-04",
+    "status": "publish",
+    "type": "project",
+    "link": "https://www.optioninc.ca/project/project-04/",
+    "title": {
+      "rendered": "Project 04"
+    },
+    "content": {
+      "rendered": "<p>You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings. You can also style every aspect of this content in the module Design settings.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings. You can also style every aspect of this content in the module Design settings.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "template": "",
+    "meta": {
+      "_acf_changed": false,
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "footnotes": ""
+    },
+    "project_category": [],
+    "project_tag": [],
+    "class_list": [
+      "post-97737",
+      "project",
+      "type-project",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project/97737",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/types/project"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/users/1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project/97737/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 99599,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project/97737/revisions/99599"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/media?parent=97737"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "project_category",
+          "embeddable": true,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project_category?post=97737"
+        },
+        {
+          "taxonomy": "project_tag",
+          "embeddable": true,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project_tag?post=97737"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 92631,
+    "date": "2023-11-08T12:46:29",
+    "date_gmt": "2023-11-08T12:46:29",
+    "guid": {
+      "rendered": "https://themes.diviplus.io/portfolio/?post_type=project&#038;p=168"
+    },
+    "modified": "2026-03-04T16:45:28",
+    "modified_gmt": "2026-03-04T21:45:28",
+    "slug": "project-03",
+    "status": "publish",
+    "type": "project",
+    "link": "https://www.optioninc.ca/project/project-03/",
+    "title": {
+      "rendered": "Project 03"
+    },
+    "content": {
+      "rendered": "<p>You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings. You can also style every aspect of this content in the module Design settings.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings. You can also style every aspect of this content in the module Design settings.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "template": "",
+    "meta": {
+      "_acf_changed": false,
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "footnotes": ""
+    },
+    "project_category": [],
+    "project_tag": [],
+    "class_list": [
+      "post-92631",
+      "project",
+      "type-project",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project/92631",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/types/project"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/users/1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project/92631/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 99600,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project/92631/revisions/99600"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/media?parent=92631"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "project_category",
+          "embeddable": true,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project_category?post=92631"
+        },
+        {
+          "taxonomy": "project_tag",
+          "embeddable": true,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project_tag?post=92631"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 99572,
+    "date": "2023-11-08T12:46:23",
+    "date_gmt": "2023-11-08T12:46:23",
+    "guid": {
+      "rendered": "https://themes.diviplus.io/portfolio/?post_type=project&#038;p=167"
+    },
+    "modified": "2026-03-04T16:45:28",
+    "modified_gmt": "2026-03-04T21:45:28",
+    "slug": "project-02",
+    "status": "publish",
+    "type": "project",
+    "link": "https://www.optioninc.ca/project/project-02/",
+    "title": {
+      "rendered": "Project 02"
+    },
+    "content": {
+      "rendered": "<p>You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings. You can also style every aspect of this content in the module Design settings.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings. You can also style every aspect of this content in the module Design settings.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "template": "",
+    "meta": {
+      "_acf_changed": false,
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "footnotes": ""
+    },
+    "project_category": [],
+    "project_tag": [],
+    "class_list": [
+      "post-99572",
+      "project",
+      "type-project",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project/99572",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/types/project"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/users/1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project/99572/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 99601,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project/99572/revisions/99601"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/media?parent=99572"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "project_category",
+          "embeddable": true,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project_category?post=99572"
+        },
+        {
+          "taxonomy": "project_tag",
+          "embeddable": true,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project_tag?post=99572"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 98398,
+    "date": "2023-11-08T12:46:16",
+    "date_gmt": "2023-11-08T12:46:16",
+    "guid": {
+      "rendered": "https://themes.diviplus.io/portfolio/?post_type=project&#038;p=166"
+    },
+    "modified": "2026-03-04T16:45:28",
+    "modified_gmt": "2026-03-04T21:45:28",
+    "slug": "project-01",
+    "status": "publish",
+    "type": "project",
+    "link": "https://www.optioninc.ca/project/project-01/",
+    "title": {
+      "rendered": "Project 01"
+    },
+    "content": {
+      "rendered": "<p>You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings. You can also style every aspect of this content in the module Design settings.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>You can also style every aspect of this content in the module Design settings and even apply custom CSS to this text in the module Advanced settings. You can also style every aspect of this content in the module Design settings.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "template": "",
+    "meta": {
+      "_acf_changed": false,
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "footnotes": ""
+    },
+    "project_category": [],
+    "project_tag": [],
+    "class_list": [
+      "post-98398",
+      "project",
+      "type-project",
+      "status-publish",
+      "hentry"
+    ],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project/98398",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/types/project"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/users/1"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project/98398/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 99602,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project/98398/revisions/99602"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/media?parent=98398"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "project_category",
+          "embeddable": true,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project_category?post=98398"
+        },
+        {
+          "taxonomy": "project_tag",
+          "embeddable": true,
+          "href": "https://www.optioninc.ca/wp-json/wp/v2/project_tag?post=98398"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]
