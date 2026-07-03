@@ -638,6 +638,43 @@ h1, h2, h3, h4 {
 .career-row h3 { font-size: 18px; color: var(--navy); }
 .career-row .career-loc { font-size: 14px; color: var(--muted); }
 
+/* Clickable posting rows (live postings from FieldOS) */
+.career-row-link { text-decoration: none; transition: background 0.2s; }
+.career-row-link:hover { background: var(--offwhite); }
+.career-row-link:hover h3 { color: var(--red); }
+.career-view {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;
+  color: var(--red); white-space: nowrap;
+}
+.career-view svg { width: 16px; height: 16px; }
+
+/* Posting detail page */
+.job-meta { display: flex; flex-wrap: wrap; gap: 10px; margin: 4px 0 20px; }
+.job-meta span {
+  font-size: 13px; font-weight: 600; letter-spacing: 0.5px;
+  color: var(--charcoal); background: var(--offwhite);
+  border: 1px solid var(--line); padding: 6px 14px;
+}
+.job-overview { margin-bottom: 8px; }
+.job-section { margin-top: 28px; }
+.job-section h3 { font-size: 19px; color: var(--navy); margin-bottom: 10px; }
+.job-section ul { margin: 0; padding-left: 20px; }
+.job-section li { font-size: 15.5px; line-height: 1.7; color: var(--text); margin-bottom: 6px; }
+.job-apply { margin-top: 48px; padding-top: 36px; border-top: 2px solid var(--navy); }
+.job-apply h2 { border-bottom: 0; padding-bottom: 8px; }
+
+/* Resume file input */
+.file-label { display: flex; align-items: center; gap: 14px; cursor: pointer; }
+.file-label input[type='file'] { position: absolute; left: -9999px; width: 1px; height: 1px; }
+.file-btn {
+  display: inline-block; background: var(--ink); color: #fff;
+  font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;
+  padding: 12px 20px; transition: background 0.2s; white-space: nowrap;
+}
+.file-label:hover .file-btn { background: var(--red); }
+.file-name { font-size: 14px; color: var(--muted); word-break: break-all; }
+
 /* =========================================================
    CONTACT
    ========================================================= */
