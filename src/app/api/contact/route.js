@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 export const runtime = 'nodejs';
 
 const TO = 'info@optionexcavating.com';
-const FROM = 'Option Excavating Website <onboarding@resend.dev>';
+const FROM = 'Option Excavating Website <website@optionexcavating.com>';
 
 function escapeHtml(str = '') {
   return String(str)
